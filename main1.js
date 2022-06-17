@@ -104,3 +104,25 @@ if(avarage_m2_score < avarage_m1_score) {
 }
 
 console.log('============solution-of-challenge2===============')
+var scorejohn = (89 + 120 + 103) / 3,
+    scoremark = (116 + 94 + 123) / 3,
+    scoremary = (97 + 134 + 105) / 3;
+console.log('avarage scorejohn',scorejohn);
+console.log('avarage scoremark',scoremark);
+console.log('avarage scoremary',scoremary);
+
+if(scorejohn > scoremark && scorejohn > scoremary) {
+    console.log('john.s team win at',scorejohn);
+} else if (scoremark > scorejohn && scoremark > scoremary) {
+    console.log('mark.s team win at',scoremark);
+} else if (scoremary > scorejohn && scoremary > scoremark) {
+    console.log('mary.s team win at', scoremary)
+} else if (scorejohn === scoremark) {
+    console.log('john.s team score equal mark.s team score',scorejohn);
+} else if (scoremark === scoremary) {
+    console.log('mark.s team score equal mary.s team score',scoremark);
+} else if (scorejohn === scoremary) {
+    console.log('john.s team score equal mary.s team score',scoremary);
+}else {
+    console.log('have no winner', scoremark);
+}

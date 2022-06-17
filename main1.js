@@ -111,18 +111,25 @@ console.log('avarage scorejohn',scorejohn);
 console.log('avarage scoremark',scoremark);
 console.log('avarage scoremary',scoremary);
 
+
+//test case 
+
+scorejohn = 150;
+scoremark = 150;
+
 if(scorejohn > scoremark && scorejohn > scoremary) {
     console.log('john.s team win at',scorejohn);
 } else if (scoremark > scorejohn && scoremark > scoremary) {
     console.log('mark.s team win at',scoremark);
 } else if (scoremary > scorejohn && scoremary > scoremark) {
     console.log('mary.s team win at', scoremary)
+} else if (scoremark === scorejohn && scoremark === scoremary) {
+    console.log('have no winner', scoremark);
 } else if (scorejohn === scoremark) {
     console.log('john.s team score equal mark.s team score',scorejohn);
 } else if (scoremark === scoremary) {
     console.log('mark.s team score equal mary.s team score',scoremark);
-} else if (scorejohn === scoremary) {
+} else {
     console.log('john.s team score equal mary.s team score',scoremary);
-}else {
-    console.log('have no winner', scoremark);
 }
+    

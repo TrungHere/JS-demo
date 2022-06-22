@@ -46,7 +46,7 @@ student2.calAverage= function() {
 }
 console.log('student2 =',student2);
 console.log('year =',student2.year);
-console.log('student2.calAverage() = ',student2.calAverage);
+console.log('student2.calAverage() = ',student2.calAverage());
 
 
 

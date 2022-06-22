@@ -39,12 +39,12 @@ console.log('bill :', bill);
 
 var tip = (tientip) => {
     if(tientip <= 50) {
-        console.log(bill[1] * 20%);
+        console.log(bill[1] * 0.2);
     }else if (tientip >50 && tientip <=200) {
-        console.log(bill[0] * 15%);
+        console.log(bill[0] * 0.15);
         
     }else {
-        console.log(bill[2] * 10%);
+        console.log(bill[2] * 0.1);
     }
 }
 var totalbill = bill + tientip;

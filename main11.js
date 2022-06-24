@@ -9,3 +9,5 @@ console.log(demoClass);
 var demoClass11 = Array.from(demoClass)
 demoClass11.push('123')
 console.log(demoClass11);
+var div = document.getElementsByTagName('demo')
+console.log('div =',div );

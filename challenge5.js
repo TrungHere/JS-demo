@@ -19,7 +19,7 @@ var Trung = {
         this.tips = [];
         this.totalvalues = [];
         var length = this.Bills.length;
-        console.log('length =',length);
+        consoe.log('length =',length);
         for(var index = 0;index < length ;index ++) {
                 var percent;
                 var bill = this.Bills[index];

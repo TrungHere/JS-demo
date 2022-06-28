@@ -16,3 +16,6 @@ body, html {
     color: #333;
     text-transform: uppercase;
 }
+[data-title] {
+    color : red;
+}

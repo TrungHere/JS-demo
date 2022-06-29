@@ -1,9 +1,8 @@
-var fbn,n,F;
+// var changestylecolor = function(color) {
+//     console.log("color")
+// }
 
-if (n == 0 || n == 1) {
-    console.log(n);
-}else {
-    F(0)
+
+function : changestylecolor(color) {
+    console.log(color);
 }
-
-

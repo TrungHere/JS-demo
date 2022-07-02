@@ -23,3 +23,9 @@ var tips = [
 ];
 console.log('tips =',tips);
 
+var tips2 = [];
+tips2.push(tientip(bills[0]));
+tips2.push(tientip(bills[1]));
+tips2.push(tientip(bills[2]));
+console.log('tips2 =',tips2);
+
